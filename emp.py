@@ -1,4 +1,4 @@
-null = null
+null = False
 emp = {
     "data": [
         {
