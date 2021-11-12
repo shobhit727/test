@@ -11,7 +11,7 @@ def test_ip(ip: int, port: int):
     ip_https = {
         "https": "https://"
     }
-    proxies.keys()[0] ="http://"+ip ":" + port
+    proxies.keys()[0] ="http://"+ ip + ":" + port
     request = requests.get(url="https://ipinfo.io/json", timeout=100000)
 
 
